@@ -1,0 +1,41 @@
+/**
+ * Description: Colorize the admin bar to match your site style, or make a visual distinction between different environments such as DEV, QA, UAT, PROD.
+ *
+ * This is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * See http://www.gnu.org/licenses/gpl-2.0.txt.
+ *
+ */
+.admin-bar-styler-preset {
+	margin-right:5px;
+	padding:15px;
+	border:1px solid #555;
+	color: #ddd;
+	}
+.admin-bar-styler-preset.red {
+	background: #d32f2f;
+	}
+.admin-bar-styler-preset.yellow {
+	background: #fdd835;
+	color: #555;
+	}
+.admin-bar-styler-preset.green {
+	background: #1b5e20;
+	}
+.admin-bar-styler-preset.blue {
+	background: #1565c0;
+	}
+.admin-bar-styler-preset.orange {
+	background: #ff8040;
+	}
+.admin-bar-styler-preset.purple {
+	background: #400040;
+	}
